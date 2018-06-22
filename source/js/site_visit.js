@@ -35,7 +35,7 @@
                     ${navigator.product}///`
         }
 
-    const url = 'http://api.twesix.cn/email-to-me/send?params=' + JSON.stringify(params)
+    const url = 'http://twesix.cn/email-to-me/send?params=' + JSON.stringify(params)
     // const url = 'http://localhost:1010/send?params=' + JSON.stringify(params)
 
     get(url)
